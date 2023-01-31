@@ -1,0 +1,75 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-item {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -25px;
+}
+.slick-container {
+  width: 80%;
+  margin-top: 10px;
+}
+.slick-story-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  text-align: center;
+}
+.logo-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.name {
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  color: #262626;
+  height: 24px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.story-ring {
+  height: 60px;
+  width: 60px;
+  border-radius: 55px;
+  border: 3px solid #ed587b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .story-ring {
+    height: 90px;
+    width: 90px;
+    border-radius: 55px;
+    border: 4px solid #ed587b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-image {
+    height: 75px;
+    width: 75px;
+    border-radius: 45px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .slick-container {
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: -25px;
+  }
+}
